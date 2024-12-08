@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Révisions pour Ma Princesse</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Révisions pour Ma Princesse</h1>
+    <nav>
+      <ul>
+        <li><a href="#quiz" onclick="showSection('quiz')">Quiz</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Section Quiz -->
+    <section id="quiz">
+      <div id="quiz-header">
+        <h2>Quiz pour Ma Princesse</h2>
+        <h4>Attention à bien écrire les mots techniques pour la vérification automatique</h4>
+        <div id="score-container">
+          Score : <span id="current-score">0</span>
+        </div>
+      </div>
+      <div id="quiz-content">
+        <!-- Message d'accueil -->
+        <p id="welcome-message">Prête à commencer ? Clique sur le bouton ci-dessous pour démarrer le quiz et répondre aux questions une à une !</p>
+        <!-- Bouton pour démarrer le quiz -->
+        <button id="start-quiz" onclick="startQuiz()">🌟 Commencer le Quiz 🌟</button>
+        <!-- Conteneur pour les questions -->
+        <div id="question-container" class="hidden">
+          <p id="question-text"></p>
+          <div id="choices-container"></div>
+          <button id="next-question" class="hidden" onclick="nextQuestion()">Suivant ➡</button>
+        </div>
+      </div>
+      <!-- Message de fin -->
+      <div id="end-message" class="hidden">
+        <h3>Bravo ma princesse, t'es la meilleure de tout l'univers ! 💖</h3>
+        <button id="retry-button" onclick="retryQuiz()">🔄 Recommencer</button>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    <p>Ce site est spécialement fait pour toi, ma princesse je t'aime plus que tout dans l'univers. 💕</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

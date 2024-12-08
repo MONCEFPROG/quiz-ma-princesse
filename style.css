@@ -1,0 +1,346 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: #ffe4e1; /* Rose pâle */
+    color: #4b0082; /* Indigo doux */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  header {
+    background: #ffb6c1; /* Rose clair */
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    border-bottom: 5px solid #ff69b4; /* Rose vif */
+    width: 100%;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 1.5rem;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .centered-content {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  button.hidden {
+    display: none;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    text-align: center;
+    background: #ffb6c1;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    border-top: 5px solid #ff69b4;
+  }
+  /* Disposition en grille pour les réponses */
+#choices-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 1rem; /* Espacement entre les boutons */
+    justify-content: center;
+  }
+  
+  /* Style pour les boutons des réponses */
+  #choices-container button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #choices-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Style pour la boîte modale */
+  #custom-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  #popup-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  #popup-content p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #4b0082;
+  }
+  
+  #popup-content button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  #popup-content button:hover {
+    background: #ff1493;
+  }
+  
+  /* Masquer la boîte modale par défaut */
+  .hidden {
+    display: none;
+  }
+  /* Conteneur pour le score */
+#score-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Ajustement de la disposition globale */
+  #quiz-header {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #quiz-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  /* Conteneur pour le score */
+#score-container {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Toujours au-dessus des autres éléments */
+  }
+  
+  /* Réajustement pour les réponses */
+  #choices-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    gap: 1rem; /* Espacement entre les boutons */
+    justify-content: center;
+    margin-top: 20px; /* Ajouter de l'espace entre le score et les réponses */
+  }
+  
+  /* Style pour les boutons des réponses */
+  #choices-container button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #choices-container button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Masquer le bouton suivant s'il n'est pas nécessaire */
+  .hidden {
+    display: none;
+  }
+  /* Boutons désactivés */
+#choices-container button:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  /* Boutons des réponses */
+#choices-container button {
+    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #choices-container button:hover:enabled {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  #choices-container button:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+  }
+  
+  /* Bouton pour la bonne réponse */
+  #choices-container button.correct {
+    background: #4CAF50 !important; /* Vert pour bonne réponse */
+  }
+  
+  /* Bouton pour la mauvaise réponse */
+  #choices-container button.wrong {
+    background: #F44336 !important; /* Rouge pour mauvaise réponse */
+  }
+  
+  /* Bouton "Suivant" actif/inactif */
+  #next-question {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #4b0082, #8a2be2);
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  #next-question:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  /* Bouton "Suivant" actif/inactif */
+#next-question {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #4b0082, #8a2be2);
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    display: block; /* Assurez-vous qu'il est toujours visible */
+  }
+  
+  #next-question:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  

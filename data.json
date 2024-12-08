@@ -1,0 +1,112 @@
+{
+    "qcm": [
+      {
+        "question": "Quelle est la prévalence estimée de la maladie de Huntington en France ?",
+        "choices": ["1/10 000", "1/100 000", "1/1 000", "1/5 000"],
+        "answer": "1/10 000"
+      },
+      {
+        "question": "Quel est le mode de transmission génétique de la maladie de Huntington ?",
+        "choices": [ "Autosomique récessive","Autosomique dominante", "Liée au chromosome X", "Liée au chromosome Y"],
+        "answer": "Autosomique dominante"
+      },
+      {
+        "question": "Quels sont les trois types de troubles associés à la triade symptomatique de la maladie de Huntington ?",
+        "choices": [ "Digestifs, moteurs, comportementaux", "Neurologiques, musculaires, cardiaques", "Moteurs, cognitifs, comportementaux", "Cognitifs, sensoriels, cardiaques"],
+        "answer": "Moteurs, cognitifs, comportementaux"
+      },
+      {
+        "question": "À quel âge débute généralement la maladie de Huntington ?",
+        "choices": ["Avant 20 ans", "Entre 20 et 30 ans", "Entre 35 et 50 ans", "Après 60 ans"],
+        "answer": "Entre 35 et 50 ans"
+      },
+      {
+        "question": "Quelle mutation génétique est responsable de la maladie de Huntington ?",
+        "choices": [
+          "Expansion du triplet CAG",
+          "Délétion sur le chromosome 21",
+          "Mutation du gène BRCA1",
+          "Translocation sur le chromosome 12"
+        ],
+        "answer": "Expansion du triplet CAG"
+      },
+      {
+        "question": "Quel est le rôle principal du striatum dans le cerveau ?",
+        "choices": ["Inhibition du thalamus", "Contrôle des réflexes posturaux", "Production de dopamine", "Synthèse de la huntingtine"],
+        "answer": "Inhibition du thalamus"
+      },
+      {
+        "question": "Quel pourcentage des patients atteints de la maladie de Huntington présentent des mouvements choréiques ?",
+        "choices": ["50%", "70%", "90%", "100%"],
+        "answer": "90%"
+      },
+      {
+        "question": "Quel test est le plus sensible pour détecter les troubles cognitifs dans la maladie de Huntington ?",
+        "choices": ["SDMT", "Trail Making Test", "Test de Stroop", "BNT"],
+        "answer": "SDMT"
+      },
+      {
+        "question": "Quel est le symptôme moteur caractéristique de la chorée ?",
+        "choices": ["Mouvements involontaires brusques", "Rigidité musculaire", "Tremblements constants", "Akinésie"],
+        "answer": "Mouvements involontaires brusques"
+      },
+      {
+        "question": "Quels facteurs influencent l'âge de début de la maladie ?",
+        "choices": ["Nombre de triplets CAG", "Alimentation", "Exposition au stress", "Lieu de résidence"],
+        "answer": "Nombre de triplets CAG"
+      }
+    ],
+    "open": [
+      {
+        "question": "Expliquez le rôle du striatum dans la maladie de Huntington.",
+        "keywords": ["striatum", "inhibition", "thalamus", "mouvements involontaires"],
+        "answer": "Le striatum joue un rôle clé dans l'inhibition du thalamus. La perte neuronale dans le striatum réduit cette inhibition, causant des mouvements involontaires."
+      },
+      {
+        "question": "Citez deux formes de mouvements anormaux associés à la maladie de Huntington.",
+        "keywords": ["chorée", "dystonie", "hypotonie", "tremblements"],
+        "answer": "Les mouvements incluent la chorée et la dystonie."
+      },
+      {
+        "question": "Quels sont les troubles cognitifs présents dès le stade préclinique ?",
+        "keywords": ["ralentissement", "distractibilité", "dysexécutifs"],
+        "answer": "Les troubles incluent un ralentissement du traitement de l'information, une distractibilité accrue, et des signes dysexécutifs."
+      },
+      {
+        "question": "Quels sont les impacts des troubles exécutifs dans la vie quotidienne des patients ?",
+        "keywords": ["planification", "organisation", "rigidité cognitive"],
+        "answer": "Les troubles affectent la planification, l'organisation, et l'adaptation aux imprévus, en raison de la rigidité cognitive."
+      },
+      {
+        "question": "Expliquez comment la maladie de Huntington affecte l'attention.",
+        "keywords": ["attention soutenue", "multitâche", "distractibilité"],
+        "answer": "La maladie perturbe l'attention soutenue et la capacité multitâche, augmentant la distractibilité."
+      },
+      {
+        "question": "Qu'est-ce que la zone d'ombre dans la génétique de la maladie de Huntington ?",
+        "keywords": ["34-36 CAG", "incertitude", "prédiction"],
+        "answer": "La zone d'ombre correspond à 34-36 triplets CAG, rendant le diagnostic incertain."
+      },
+      {
+        "question": "Quelles sont les phases de l'accompagnement pour un diagnostic pré-symptomatique ?",
+        "keywords": ["information", "réflexion", "consultation"],
+        "answer": "Les phases incluent l'information, la réflexion, et les consultations pluridisciplinaires."
+      },
+      {
+        "question": "Quels troubles comportementaux sont fréquents dans la maladie de Huntington ?",
+        "keywords": ["irritabilité", "apathie", "agressivité"],
+        "answer": "Les troubles incluent irritabilité, apathie, et agressivité."
+      },
+      {
+        "question": "Quelles sont les options pour un diagnostic prénatal dans la maladie de Huntington ?",
+        "keywords": ["amniocentèse", "DPN", "FIV", "DPI"],
+        "answer": "Les options incluent le diagnostic prénatal (DPN) et le diagnostic préimplantatoire (DPI)."
+      },
+      {
+        "question": "Expliquez le concept d'anticipation dans la maladie de Huntington.",
+        "keywords": ["anticipation", "hérédité paternelle", "triplets"],
+        "answer": "L'anticipation désigne un âge de début plus précoce lorsque la mutation est héritée du père, en lien avec un plus grand nombre de triplets CAG."
+      }
+    ]
+  }
+  
