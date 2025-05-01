@@ -1,112 +1,206 @@
 {
-    "qcm": [
-      {
-        "question": "Quelle est la prévalence estimée de la maladie de Huntington en France ?",
-        "choices": ["1/10 000", "1/100 000", "1/1 000", "1/5 000"],
-        "answer": "1/10 000"
-      },
-      {
-        "question": "Quel est le mode de transmission génétique de la maladie de Huntington ?",
-        "choices": [ "Autosomique récessive","Autosomique dominante", "Liée au chromosome X", "Liée au chromosome Y"],
-        "answer": "Autosomique dominante"
-      },
-      {
-        "question": "Quels sont les trois types de troubles associés à la triade symptomatique de la maladie de Huntington ?",
-        "choices": [ "Digestifs, moteurs, comportementaux", "Neurologiques, musculaires, cardiaques", "Moteurs, cognitifs, comportementaux", "Cognitifs, sensoriels, cardiaques"],
-        "answer": "Moteurs, cognitifs, comportementaux"
-      },
-      {
-        "question": "À quel âge débute généralement la maladie de Huntington ?",
-        "choices": ["Avant 20 ans", "Entre 20 et 30 ans", "Entre 35 et 50 ans", "Après 60 ans"],
-        "answer": "Entre 35 et 50 ans"
-      },
-      {
-        "question": "Quelle mutation génétique est responsable de la maladie de Huntington ?",
-        "choices": [
-          "Expansion du triplet CAG",
-          "Délétion sur le chromosome 21",
-          "Mutation du gène BRCA1",
-          "Translocation sur le chromosome 12"
-        ],
-        "answer": "Expansion du triplet CAG"
-      },
-      {
-        "question": "Quel est le rôle principal du striatum dans le cerveau ?",
-        "choices": ["Inhibition du thalamus", "Contrôle des réflexes posturaux", "Production de dopamine", "Synthèse de la huntingtine"],
-        "answer": "Inhibition du thalamus"
-      },
-      {
-        "question": "Quel pourcentage des patients atteints de la maladie de Huntington présentent des mouvements choréiques ?",
-        "choices": ["50%", "70%", "90%", "100%"],
-        "answer": "90%"
-      },
-      {
-        "question": "Quel test est le plus sensible pour détecter les troubles cognitifs dans la maladie de Huntington ?",
-        "choices": ["SDMT", "Trail Making Test", "Test de Stroop", "BNT"],
-        "answer": "SDMT"
-      },
-      {
-        "question": "Quel est le symptôme moteur caractéristique de la chorée ?",
-        "choices": ["Mouvements involontaires brusques", "Rigidité musculaire", "Tremblements constants", "Akinésie"],
-        "answer": "Mouvements involontaires brusques"
-      },
-      {
-        "question": "Quels facteurs influencent l'âge de début de la maladie ?",
-        "choices": ["Nombre de triplets CAG", "Alimentation", "Exposition au stress", "Lieu de résidence"],
-        "answer": "Nombre de triplets CAG"
-      }
-    ],
-    "open": [
-      {
-        "question": "Expliquez le rôle du striatum dans la maladie de Huntington.",
-        "keywords": ["striatum", "inhibition", "thalamus", "mouvements involontaires"],
-        "answer": "Le striatum joue un rôle clé dans l'inhibition du thalamus. La perte neuronale dans le striatum réduit cette inhibition, causant des mouvements involontaires."
-      },
-      {
-        "question": "Citez deux formes de mouvements anormaux associés à la maladie de Huntington.",
-        "keywords": ["chorée", "dystonie", "hypotonie", "tremblements"],
-        "answer": "Les mouvements incluent la chorée et la dystonie."
-      },
-      {
-        "question": "Quels sont les troubles cognitifs présents dès le stade préclinique ?",
-        "keywords": ["ralentissement", "distractibilité", "dysexécutifs"],
-        "answer": "Les troubles incluent un ralentissement du traitement de l'information, une distractibilité accrue, et des signes dysexécutifs."
-      },
-      {
-        "question": "Quels sont les impacts des troubles exécutifs dans la vie quotidienne des patients ?",
-        "keywords": ["planification", "organisation", "rigidité cognitive"],
-        "answer": "Les troubles affectent la planification, l'organisation, et l'adaptation aux imprévus, en raison de la rigidité cognitive."
-      },
-      {
-        "question": "Expliquez comment la maladie de Huntington affecte l'attention.",
-        "keywords": ["attention soutenue", "multitâche", "distractibilité"],
-        "answer": "La maladie perturbe l'attention soutenue et la capacité multitâche, augmentant la distractibilité."
-      },
-      {
-        "question": "Qu'est-ce que la zone d'ombre dans la génétique de la maladie de Huntington ?",
-        "keywords": ["34-36 CAG", "incertitude", "prédiction"],
-        "answer": "La zone d'ombre correspond à 34-36 triplets CAG, rendant le diagnostic incertain."
-      },
-      {
-        "question": "Quelles sont les phases de l'accompagnement pour un diagnostic pré-symptomatique ?",
-        "keywords": ["information", "réflexion", "consultation"],
-        "answer": "Les phases incluent l'information, la réflexion, et les consultations pluridisciplinaires."
-      },
-      {
-        "question": "Quels troubles comportementaux sont fréquents dans la maladie de Huntington ?",
-        "keywords": ["irritabilité", "apathie", "agressivité"],
-        "answer": "Les troubles incluent irritabilité, apathie, et agressivité."
-      },
-      {
-        "question": "Quelles sont les options pour un diagnostic prénatal dans la maladie de Huntington ?",
-        "keywords": ["amniocentèse", "DPN", "FIV", "DPI"],
-        "answer": "Les options incluent le diagnostic prénatal (DPN) et le diagnostic préimplantatoire (DPI)."
-      },
-      {
-        "question": "Expliquez le concept d'anticipation dans la maladie de Huntington.",
-        "keywords": ["anticipation", "hérédité paternelle", "triplets"],
-        "answer": "L'anticipation désigne un âge de début plus précoce lorsque la mutation est héritée du père, en lien avec un plus grand nombre de triplets CAG."
-      }
-    ]
-  }
-  
+  "qcm": [
+    {
+      "question": "Quel type de mémoire est souvent altéré chez les enfants avec TDAH ?",
+      "choices": ["Mémoire à long terme", "Mémoire de travail", "Mémoire procédurale", "Mémoire sensorielle"],
+      "answer": "Mémoire de travail"
+    },
+    {
+      "question": "Quel test permet d’évaluer l’attention sélective chez l’enfant ?",
+      "choices": ["WISC V – Code", "TEA-Ch – Sky Search", "CMS – Mémoire différée", "NEPSY-II – Praxies"],
+      "answer": "TEA-Ch – Sky Search"
+    },
+    {
+      "question": "Quel comportement est typiquement observé lors d’une tâche monotone chez un enfant TDAH ?",
+      "choices": ["Performance stable", "Augmentation de l’engagement", "Distraction rapide", "Endormissement"],
+      "answer": "Distraction rapide"
+    },
+    {
+      "question": "Quelle est la forme de TDAH où l’hyperactivité est absente ?",
+      "choices": ["TDAH mixte", "TDAH hyperactif", "TDAH inattentif", "TDAH sévère"],
+      "answer": "TDAH inattentif"
+    },
+    {
+      "question": "Quel questionnaire permet d’évaluer l’impact fonctionnel des troubles exécutifs chez l’enfant ?",
+      "choices": ["BRIEF", "Conners", "Vineland", "ABAS-II"],
+      "answer": "BRIEF"
+    },
+    {
+      "question": "Quel seuil de QI est généralement utilisé pour diagnostiquer une déficience intellectuelle ?",
+      "choices": ["<70", "<85", "<90", "<60"],
+      "answer": "<70"
+    },
+    {
+      "question": "Quel outil permet d’évaluer les comportements adaptatifs dans le cadre d’une DI ?",
+      "choices": ["BRIEF", "ABAS-II", "Conners", "TEA-Ch"],
+      "answer": "ABAS-II"
+    },
+    {
+      "question": "Quelle est la caractéristique d’un profil cognitif typique en DI ?",
+      "choices": ["Hétérogénéité avec pointes hautes", "Profil globalement homogène bas", "QI non verbal supérieur au verbal", "Mémoire exceptionnelle"],
+      "answer": "Profil globalement homogène bas"
+    },
+    {
+      "question": "Quel test est recommandé pour mesurer le QI chez un enfant avec suspicion de DI ?",
+      "choices": ["NEPSY-II", "CMS", "WISC V", "BALE"],
+      "answer": "WISC V"
+    },
+    {
+      "question": "Quelle mémoire est souvent préservée chez les enfants avec DI ?",
+      "choices": ["Mémoire de travail", "Mémoire procédurale", "Mémoire à long terme", "Mémoire auditive immédiate"],
+      "answer": "Mémoire à long terme"
+    },
+    {
+      "question": "Quel test est spécifiquement conçu pour évaluer la coordination motrice chez l’enfant ?",
+      "choices": ["WISC V", "MABC-2", "CMS", "TEA-Ch"],
+      "answer": "MABC-2"
+    },
+    {
+      "question": "Quelle sphère cognitive est souvent impactée dans le TDC ?",
+      "choices": ["Mémoire à long terme", "Planification visuo-motrice", "Langage expressif", "Attention partagée"],
+      "answer": "Planification visuo-motrice"
+    },
+    {
+      "question": "Quel outil peut évaluer les praxies chez un enfant suspecté de TDC ?",
+      "choices": ["NEPSY-II", "D2", "Vineland", "CMS"],
+      "answer": "NEPSY-II"
+    },
+    {
+      "question": "Quel type de tâche révèle souvent des difficultés chez un enfant avec TDC ?",
+      "choices": ["Tâches verbales", "Tâches motrices séquentielles", "Tâches émotionnelles", "Tâches de mémoire verbale"],
+      "answer": "Tâches motrices séquentielles"
+    },
+    {
+      "question": "Quelle fonction est souvent utilisée en compensation par les enfants TDC ?",
+      "choices": ["Mémoire visuelle", "Langage verbal", "Mémoire procédurale", "Logique spatiale"],
+      "answer": "Langage verbal"
+    },
+    {
+      "question": "Quel profil cognitif est typique dans le TDL ?",
+      "choices": ["QI verbal supérieur au QI non verbal", "QI homogène faible", "QI non verbal > QI verbal", "QI très élevé globalement"],
+      "answer": "QI non verbal > QI verbal"
+    },
+    {
+      "question": "Quel test est utilisé pour évaluer la fluence verbale ?",
+      "choices": ["TEA-Ch", "NEPSY-II", "CMS", "WISC V – Matrices"],
+      "answer": "NEPSY-II"
+    },
+    {
+      "question": "Quelle composante est généralement touchée dans le TDL réceptif ?",
+      "choices": ["Expression orale", "Compréhension verbale", "Coordination motrice", "Mémoire visuelle"],
+      "answer": "Compréhension verbale"
+    },
+    {
+      "question": "Quel domaine langagier est typiquement déficitaire dans le TDL expressif ?",
+      "choices": ["Syntaxe", "Coordination", "Mémoire visuelle", "Attention soutenue"],
+      "answer": "Syntaxe"
+    },
+    {
+      "question": "Quel outil permet d’évaluer la formulation de phrases ?",
+      "choices": ["NEPSY-II", "CMS", "MABC-2", "D2"],
+      "answer": "NEPSY-II"
+    }
+  ],
+  "open": [
+    {
+      "question": "Décrivez le profil attentionnel typique chez un enfant présentant un TDAH.",
+      "keywords": ["attention soutenue", "distraction", "variabilité", "double tâche"],
+      "answer": "L’enfant présente une attention soutenue fragile, est facilement distrait, et a du mal à gérer une double tâche."
+    },
+    {
+      "question": "Quels sont les domaines cognitifs explorés dans le bilan neuropsychologique du TDAH ?",
+      "keywords": ["attention", "fonctions exécutives", "mémoire de travail", "comportement"],
+      "answer": "On explore l’attention, les fonctions exécutives (inhibition, planification), la mémoire de travail, et les impacts comportementaux."
+    },
+    {
+      "question": "Quelles fonctions exécutives sont souvent déficitaires chez les enfants TDAH ?",
+      "keywords": ["inhibition", "planification", "flexibilité"],
+      "answer": "L’inhibition, la planification, et la flexibilité mentale sont souvent altérées chez les enfants TDAH."
+    },
+    {
+      "question": "Quels outils standardisés peuvent être utilisés pour explorer l’attention ?",
+      "keywords": ["TEA-Ch", "D2", "NEPSY", "MESULAM"],
+      "answer": "On peut utiliser le TEA-Ch, le D2, le subtest Attention de la NEPSY-II, ou le test de barrage de Mesulam."
+    },
+    {
+      "question": "Comment interpréter un profil cognitif hétérogène chez un enfant avec TDAH ?",
+      "keywords": ["points forts", "fragilités", "inhibition", "attention"],
+      "answer": "Le profil montre des points forts (souvent perceptifs) et des fragilités exécutives et attentionnelles, traduisant le trouble de régulation cognitive."
+    },
+    {
+      "question": "Quels critères sont nécessaires pour poser un diagnostic de déficience intellectuelle ?",
+      "keywords": ["QI", "comportements adaptatifs", "avant 18 ans"],
+      "answer": "Un QI inférieur à 70, des limitations dans les comportements adaptatifs, et un début avant 18 ans sont requis."
+    },
+    {
+      "question": "Quelles sont les conséquences des troubles adaptatifs dans la vie quotidienne ?",
+      "keywords": ["autonomie", "socialisation", "communication"],
+      "answer": "Ils entraînent des difficultés dans l’autonomie, les interactions sociales et la communication."
+    },
+    {
+      "question": "Quels tests peuvent compléter le WISC V dans une évaluation de DI ?",
+      "keywords": ["Vineland", "ABAS-II", "CMS"],
+      "answer": "La Vineland et l’ABAS-II pour les comportements adaptatifs, et le CMS pour la mémoire."
+    },
+    {
+      "question": "Quelle est l’importance d’évaluer le langage dans une suspicion de DI ?",
+      "keywords": ["compréhension", "expression", "communication fonctionnelle"],
+      "answer": "Le langage permet d’évaluer la capacité à communiquer et à comprendre les consignes, ce qui est essentiel pour le diagnostic différentiel."
+    },
+    {
+      "question": "Pourquoi parle-t-on de profil homogène dans la DI ?",
+      "keywords": ["faiblesses globales", "QI homogène", "toutes les sphères"],
+      "answer": "Parce que les performances sont basses dans toutes les sphères cognitives, sans grand écart entre les indices."
+    },
+    {
+      "question": "Quels sont les signes cliniques typiques d’un TDC observables à l’école ?",
+      "keywords": ["écriture", "habillage", "maladresse", "graphomotricité"],
+      "answer": "Difficulté à écrire, maladresse, lenteur, mauvaise tenue du crayon et habillage difficile."
+    },
+    {
+      "question": "Comment évaluer la composante visuo-spatiale dans le TDC ?",
+      "keywords": ["Figure de Rey", "copie", "planification", "perception"],
+      "answer": "Avec la Figure de Rey (copie), le WISC (Blocs), ou des tâches de planification spatiale."
+    },
+    {
+      "question": "Pourquoi le langage peut être un facteur de compensation dans le TDC ?",
+      "keywords": ["verbalisation", "stratégies", "planification"],
+      "answer": "Les enfants utilisent la verbalisation pour guider leurs gestes et compenser les difficultés motrices."
+    },
+    {
+      "question": "Quels tests peuvent être mobilisés pour une suspicion de dyspraxie ?",
+      "keywords": ["NEPSY", "MABC-2", "Rey", "tests de praxies"],
+      "answer": "NEPSY-II pour les praxies, MABC-2 pour la motricité, Figure de Rey pour l’organisation visuelle."
+    },
+    {
+      "question": "Quelles difficultés psychologiques peuvent découler d’un TDC non repéré ?",
+      "keywords": ["estime de soi", "frustration", "retrait social"],
+      "answer": "Faible estime de soi, évitement des tâches scolaires, retrait social ou anxiété de performance."
+    },
+    {
+      "question": "Quelles différences observe-t-on entre un TDL et une déficience intellectuelle ?",
+      "keywords": ["QI verbal", "QI non verbal", "profil hétérogène", "langage"],
+      "answer": "Le TDL présente souvent un QI non verbal dans la norme et un QI verbal abaissé, contrairement à la DI où le profil est globalement bas."
+    },
+    {
+      "question": "Quels sont les signes expressifs typiques du TDL ?",
+      "keywords": ["vocabulaire", "syntaxe", "phrases courtes", "erreurs"],
+      "answer": "Un vocabulaire pauvre, des phrases courtes, des erreurs grammaticales fréquentes et une expression orale ralentie."
+    },
+    {
+      "question": "Quels outils utiliser pour explorer les troubles du langage réceptif ?",
+      "keywords": ["NEPSY-II", "compréhension", "instructions", "orthophonie"],
+      "answer": "Le subtest Compréhension de NEPSY-II, les consignes complexes, et des épreuves d’orthophonie."
+    },
+    {
+      "question": "Pourquoi le TDL peut-il impacter l’apprentissage scolaire ?",
+      "keywords": ["compréhension orale", "lecture", "orthographe"],
+      "answer": "Le TDL affecte la compréhension orale, l’apprentissage de la lecture et de l’orthographe, essentiels en contexte scolaire."
+    },
+    {
+      "question": "Comment le langage peut-il être compensé dans un TDL ?",
+      "keywords": ["visuo-spatial", "gestes", "soutien scolaire"],
+      "answer": "Par des stratégies visuo-spatiales, l’usage de gestes, et des aides pédagogiques spécifiques."
+    }
+  ]
+}
